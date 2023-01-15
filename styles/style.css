@@ -200,3 +200,82 @@
     margin-top:770px;
     left: 45%;
 }
+/* sectiontwo end */
+
+#my-success{
+    width:1260px;
+    height: auto;
+    margin: auto;
+    padding:30px 20px 10px 20px;
+}
+.card-bar{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:60px 0px;
+}
+.success-head{
+    margin: 40px 0px;
+}
+.success-head h2{
+    color:#131313;
+    font-size: 42px;
+    padding:10px 0px;
+}
+.card-details{
+    width:200px;
+    text-align: center ;
+    padding:30px 0px 1px 0px;
+    border: 1px solid rgba(165, 103, 22, 0.694);
+    height: 200px;
+    border-radius: 8px;
+}
+.card-details h2{
+    padding:5px 0px;
+}
+/* section three end */
+#section_four{
+  width:1260px;
+  margin: auto;
+ 
+}
+.section_four_head{
+    text-align: center;
+    margin:15px 0px;
+}
+.section_four_head h1{
+font-size: 42px;
+ color: #131313;
+ padding: 15px 0px;
+
+}
+.sponser-cardbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+    align-items: center;
+
+}
+.Sponspors_img img{
+    padding:20px 0px;
+    filter: grayscale(100%);
+}
+
+/* main section end */
+
+#footer{
+    background-color:#f3daba;
+    width:100%;
+   
+    margin: auto;
+}
+.footer-title{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:#131313;
+    
+}
