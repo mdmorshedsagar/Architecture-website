@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header-logo{
     color:#131313;
@@ -35,6 +36,7 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+    
     
 }
 .navbar ul li{
@@ -64,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .header-title{
     width:870px;
@@ -101,6 +104,7 @@
     column-gap: 30px;
     padding:40px 0px;
     align-items: center;
+    
 }
 .feature-img{
     width:50%;
@@ -165,6 +169,7 @@
     font-size: 40px;
     color: #131313;
     border-left: 3px solid #FF900E;
+    padding-left:10px;
 }
 .two-maintitle p{
     padding: 10px 0px;
@@ -175,7 +180,7 @@
 
 }
 .title_sub_two{
-    height: 150px;
+    height: 147px;
     padding-right: 25px;
 }
 .title_sub_two h2{
@@ -185,6 +190,8 @@
 }
 .title_sub_two p{
     font-size: 15px;
+    width:500px;
+    
 }
 .secondery-btn{
     width:180px;
@@ -197,8 +204,9 @@
     font-weight: 700;
     border-radius: 8px;
     position: absolute;
-    margin-top:770px;
-    left: 45%;
+   
+    margin: 770px auto 0px auto;
+    
 }
 /* sectiontwo end */
 
@@ -214,6 +222,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin:60px 0px;
+    
 }
 .success-head{
     margin: 40px 0px;
@@ -227,9 +236,19 @@
     width:200px;
     text-align: center ;
     padding:30px 0px 1px 0px;
-    border: 1px solid rgba(165, 103, 22, 0.694);
+    border: 1px solid rgba(165, 103, 22, 0.419);
     height: 200px;
     border-radius: 8px;
+}
+.card-details:hover{
+   background-color: #ff8f0e5d;
+   border:none;
+   box-shadow: 2px 2px 2px silver;
+}
+.card-details:hover .transition{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+   
 }
 .card-details h2{
     padding:5px 0px;
@@ -255,6 +274,7 @@ font-size: 42px;
     justify-content: space-around;
     margin: 40px 0px;
     align-items: center;
+    
 
 }
 .Sponspors_img img{
@@ -262,11 +282,67 @@ font-size: 42px;
     filter: grayscale(100%);
 }
 
+
+#contact_section{
+    width:1260px;
+    margin: 40px auto;
+    padding:10px 15px;
+    background:linear-gradient(#1c1a19bd,#191817b1),url(../images/1.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.contact_us{
+    display: flex;
+    height: 350px;
+     width:100%;
+     align-items: center;
+     color:#f0e8df;
+     
+}
+.contact-head-bar{
+    
+    width:48%;
+    
+}
+.contact-head-bar h1{
+    font-size: 40px;
+    padding:12px 0px;
+    font-weight: 500;
+    border-left: 3px solid #FF900E;
+    padding-left: 10px;
+}
+.contact-head-bar p{
+    letter-spacing: 0.5px;
+}
+.contact_details{
+    width:48%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.contact_details .reflid{
+    font-size: 40px;
+    color:#FF900E;
+    padding:10px;
+} 
+.contact_me h2{
+    font-size: 30px;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+.contact_me p{
+    font-size: 16px;
+}
+
 /* main section end */
 
 #footer{
     background-color:#f3daba;
-    width:100%;
+    width:1270px;
    
     margin: auto;
 }
@@ -275,7 +351,17 @@ font-size: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     color:#131313;
+    font-weight: 700;
+    
+    
     
 }
+
+/* -----------
+end
+----------- */
+
+
+
