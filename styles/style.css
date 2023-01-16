@@ -397,10 +397,11 @@ end
  }
  .header-banner{
     width:100%;
+    overflow: hidden;
     
  }
  .header-banner img{
-    width:95%;
+    width:320px;
  }
  #footer{
     width: 100%;
