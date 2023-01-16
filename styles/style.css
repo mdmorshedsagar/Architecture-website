@@ -203,7 +203,7 @@
     font-size: 28px;
     font-weight: 700;
     border-radius: 8px;
-    position: absolute;
+     position: absolute;
    
     margin: 770px auto 0px auto;
     
@@ -363,5 +363,154 @@ font-size: 42px;
 end
 ----------- */
 
+
+
+/* midea query start */
+
+@media only screen and (max-width: 480px) {
+   #header-bar{
+    width:100%;
+   }  
+   .header-fullbar,.navbar ul{
+    flex-direction: column;
+   } 
+   .title-full-section{
+    width:90%;
+  
+   }
+  
+  .header-head-title{
+    font-size: 36px;
+    line-height: 35px;
+    text-align: left;
+  }
+ .header-title p{
+    width:100%;
+   
+    font-size: small;
+    text-align: left;
+ }
+ .header-title button{
+  
+   margin: auto;
+    
+ }
+ .header-banner{
+    width:98%;
+    
+ }
+ .header-banner img{
+    width:300px;
+ }
+ #footer{
+    width: 100%;
+ }
+ .footer-title{
+    width:300px;
+    height: 100px;
+    font-size: 16px;
+    text-align: center;
+     margin: auto;
+ }
+  #Our_Feature{
+    width:100%;
+    flex-direction: column-reverse;
+    align-items: start;
+    padding-left: 10px;
+    
+  }
+  .feature-detail{
+    width:330px;
+  }
+  .feature-img{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .feature-head-title{
+    width:300px;
+    word-spacing: 0.2px;
+    font-size: 35px;
+  }
+  
+  #section_two{
+    width:100%;
+  }
+  .section-two-fullbar{
+    flex-direction: column;
+  }
+  .section-two-titlebar{
+    width:100%;
+    
+  }
+  .title_sub_two{
+    width:100%;
+    height: auto;
+  }
+  .title_sub_two p{
+    width:100%;
+  }
+  .secondery-btn{
+    margin: 0px;
+    position: static;
+    width:230px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px auto;
+  }
+  .feature-body-bar > button{
+       font-size: 18px;
+       width:200px;
+       margin-bottom: 10px;
+  }
+  .section-two_img{
+    width:100%;
+  }
+  .section-two_img img{
+    width:95%;
+  }
+  #my-success{
+    width:100%;
+  }
+  .card-bar{
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  #section_four{
+
+    width:100%;
+  }
+  .sponser-cardbar{
+    flex-direction: column;
+  }
+  .section_four_head{
+    text-align: left;
+  }
+  .section_four_head p{
+    width:300px;
+  }
+  #contact_section{
+    width:100%;
+    height: 600px;
+  }
+  .contact_us{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.contact-head-bar p{
+    width:90%;
+}
+.contact_details{
+    width:95%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:10px;
+  }
+  .contact-head-bar{
+    width:100%;
+  }
+
+  }
+ 
 
 
